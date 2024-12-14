@@ -1,0 +1,72 @@
+.collaborations-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.collaboration-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; /* Ensures space is distributed evenly */
+}
+
+.collaboration-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(25% - 20px); /* 4 cards in a row with 20px gap */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.collaboration-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.collaboration-info {
+  padding: 15px;
+}
+
+.collaboration-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.collaboration-info p {
+  margin-bottom: 10px;
+}
+
+.learn-more {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 1200px) {
+  .collaboration-card {
+    width: calc(50% - 20px); /* 2 cards in a row for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .collaboration-card {
+    width: 100%; /* 1 card in a row for mobile screens */
+  }
+}

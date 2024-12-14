@@ -1,0 +1,56 @@
+/* Container for the destinations */
+.destinations-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Flex container for destinations */
+.destinations-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 20px; /* Space between items */
+  justify-content: space-between; /* Space items evenly */
+}
+
+/* Each destination card */
+.destination-card {
+  flex: 1 1 calc(25% - 20px); /* 4 items per row, accounting for gap */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Space below each item */
+}
+
+/* Ensure image covers card area */
+.destination-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Information inside the card */
+.destination-info {
+  padding: 15px;
+}
+
+.destination-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.destination-info p {
+  margin-bottom: 10px;
+}
+
+.view-details {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,82 @@
+.account-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-section,
+  .membership-section {
+    margin-bottom: 20px;
+  }
+  
+  .account-section h3,
+  .membership-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .account-section p,
+  .membership-section p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Subscribe Button */
+  .subscribe-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Subscribed Button */
+  .subscribed-button {
+    background-color: #6c757d;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .subscribed-button:hover {
+    background-color: #6c757d;
+  }
+  
+  /* Dashboard Button */
+  .dashboard-button {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background-color: #f44336;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .logout-button:hover {
+    background-color: #e53935;
+  }
+  

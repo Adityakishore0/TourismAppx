@@ -1,0 +1,49 @@
+/* src/places/Jaipur.css */
+
+.jaipur-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .jaipur-container h1 {
+    font-size: 2.5em;
+    color: #d2691e; /* Pink City color */
+  }
+  
+  .jaipur-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .jaipur-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .jaipur-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+  }
+  
+  .jaipur-container h2 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #d2691e;
+  }
+  
+  .jaipur-container ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    color: #333;
+  }
+  
+  .jaipur-container li {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  

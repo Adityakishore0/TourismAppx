@@ -1,0 +1,69 @@
+.events-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between; /* Added to ensure even spacing between cards */
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(25% - 20px); /* 25% of the container's width minus the gap to fit 4 cards in a row */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 15px;
+}
+
+.event-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-info p {
+  margin-bottom: 10px;
+}
+
+.book-now {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.book-now:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .event-card {
+      width: calc(33.33% - 20px); /* 3 cards per row for slightly smaller screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .event-card {
+      width: calc(50% - 20px); /* 2 cards per row for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .event-card {
+      width: 100%; /* 1 card per row for small screens */
+  }
+}

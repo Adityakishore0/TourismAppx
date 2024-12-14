@@ -1,0 +1,66 @@
+/* src/components/OrderConfirmation.css */
+
+.order-confirmation-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .order-confirmation-header {
+    font-size: 2rem;
+    color: #4CAF50; /* Green color for a success message */
+    margin-bottom: 20px;
+  }
+  
+  .order-details {
+    font-size: 1rem;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .order-summary {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .order-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary p {
+    margin: 5px 0;
+  }
+  
+  .order-summary .order-item {
+    margin-bottom: 10px;
+  }
+  
+  .delivery-info {
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+  
+  .delivery-info p {
+    margin: 5px 0;
+  }
+  
+  .return-home-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .return-home-button:hover {
+    background-color: #45a049;
+  }
+  

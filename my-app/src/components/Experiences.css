@@ -1,0 +1,56 @@
+/* Container for the experiences */
+.experiences-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Flex container for experiences */
+.experiences-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 20px; /* Space between items */
+  justify-content: space-between; /* Space items evenly */
+}
+
+/* Each experience card */
+.experience-card {
+  flex: 1 1 calc(25% - 20px); /* 4 items per row, accounting for gap */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Space below each item */
+}
+
+/* Ensure image covers card area */
+.experience-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Information inside the card */
+.experience-info {
+  padding: 15px;
+}
+
+.experience-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.experience-info p {
+  margin-bottom: 10px;
+}
+
+.book-now {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.book-now:hover {
+  text-decoration: underline;
+}

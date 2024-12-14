@@ -1,0 +1,49 @@
+.tours-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tours-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tour-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour-info {
+  padding: 15px;
+}
+
+.tour-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.tour-info p {
+  margin-bottom: 10px;
+}
+
+.book-now {
+  display: block;
+  margin-top: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.book-now:hover {
+  text-decoration: underline;
+}
